@@ -1,0 +1,29 @@
+{
+  "name": "api-gastos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcos2704/api-gastos.git"
+  },
+  "author": "Marcos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marcos2704/api-gastos/issues"
+  },
+  "homepage": "https://github.com/Marcos2704/api-gastos#readme",
+  "dependencies": {
+    "@prisma/client": "^4.1.0",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "prisma": "^4.1.0"
+  }
+}
